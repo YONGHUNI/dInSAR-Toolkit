@@ -1,0 +1,30 @@
+name: insar_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - isce2
+  - mintpy
+  - asf_search
+  - sentinelsat
+  - gdal
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - dask
+  - xarray
+  - scipy
+  - ipympl
+  - snaphu
+  - ca-certificates
+  - certifi
+  - openssl
+  - folium
+  - earthaccess
+  - plotly
+  - sentineleof
+  - rasterio
+  - dem_stitcher
+  - pipreqs
+prefix: /u/yhsuh/conda-envs/insar_env
