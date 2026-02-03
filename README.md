@@ -96,40 +96,22 @@ App --> Outputs[InSAR Products]
 ```
 
 ./
-
 ├── main.py
-
 ├── environment.yml
-
 ├── README.md
-
 ├── modules/
-
 │ ├── __init__.py
-
 │ ├── SLC_manager.py
-
 │ ├── orbit_manager.py
-
 │ ├── DEM_manager.py
-
 │ ├── isce_processor.py
-
 │ └── auth_base.py
-
 └── examples/
-
   ├── ISCE_processor(INSAR_main).ipynb
-
   ├── S1SLCManager.ipynb
-
   ├── OrbitManager.ipynb
-
   ├── DEMManager.ipynb
-
   └── README.md
-
- insar_workspace/ # auto-generated
 
 ```
 
@@ -149,9 +131,9 @@ App --> Outputs[InSAR Products]
 
 ```bash
 
-git clone <repo_url>
+git clone https://github.com/YONGHUNI/dInSAR-Toolkit.git
 
-cd INSAR
+cd dInSAR-Toolkit
 
   
 
@@ -256,13 +238,9 @@ Key products:
   
 
 | File | Meaning |
-
 | ------------------------ | ---------------------------------------------- |
-
 |  `filt_topophase.unw.geo`  | Geocoded unwrapped phase (displacement signal) |
-
 |  `topophase.cor.geo`  | Coherence map |
-
 |  `phsig.cor.geo`  | Phase sigma (uncertainty proxy) |
 
   
@@ -284,12 +262,9 @@ The `examples/` directory contains interactive notebooks demonstrating each modu
   
 
 | Notebook | Purpose |
-
 | ---------------------------------- | ------------------------------------------------------------------ |
 |  `S1SLCManager.ipynb`  | ASF search & Sentinel-1 download tests |
-
 |  `OrbitManager.ipynb`  | Orbit retrieval tests |
-
 |  `DEMManager.ipynb`  | DEM buffering and stitching demo |
 |  `ISCE_processor(INSAR_main).ipynb`  | Interactive version of `main.py`  |
  
