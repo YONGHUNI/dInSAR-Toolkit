@@ -56,8 +56,7 @@ SLC -->|Geometry Bounds| DEM[DEM Manager]
 SLC -->|Inputs| Proc[ISCE Processor]
 Orbit -->|Orbit Files| Proc
 DEM -->|Buffered DEM| Proc
-Proc -->|Generate topsApp.xml| App[ISCE topsApp.py]
-App --> Outputs[InSAR Products]
+Proc -->|Generate topsApp.xml<br>&<br> Run ISCE topsApp.py| Outputs[InSAR Products]
 ```
 
 ---
