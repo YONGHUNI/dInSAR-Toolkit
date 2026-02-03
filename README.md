@@ -379,11 +379,8 @@ File: `topophase.cor.geo`
   
 
 | Coherence | Interpretation |
-
 | --------- | --------------------------------- |
-
 | > 0.5 | Reliable phase (urban, bare soil) |
-
 | < 0.3 | Noisy (vegetation, water) |
 
   
@@ -473,16 +470,11 @@ Check:
 
 Approximate disk usage:
 
-  
 
 | Component | Size |
-
 | ------------------ | ---------------- |
-
 | Sentinel-1 SLC | 4–8 GB per scene |
-
 | ISCE intermediates | 50–100 GB |
-
 | DEM tiles | 1–3 GB |
 
   
